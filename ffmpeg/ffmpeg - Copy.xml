@@ -1,0 +1,5 @@
+<options profile="matroska" ffmpeg="C:/Program Files (x86)/kmttg/ffmpeg/ffmpeg.exe" outdir="c:/tmp" videotypes="mpg,mp4,mkv,avi,wmv">
+  <extensions matroska="mkv" mpeg="mpg" />
+  <profiles name="matroska" acodec="ac3" format="matroska" vcodec="libx264" />
+  <profiles name="tivohd" acodec="copy" format="mp4" vcodec="libx264" />
+</options>

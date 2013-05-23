@@ -1,0 +1,13 @@
+<project default="install" name="FFMPEG Front End">
+                <property name="installdir" location="c:/Program Files (x86)/FFMpeg/gui" />
+                <target name="install" description="copy resources and executables to destination directory">
+  			                    <copy todir="${installdir}" >
+                                     <fileset dir="${basedir}" includes="*.pm" />
+                     			</copy>
+                                <copy tofile="${installdir}/ffmpeg.pl" file="ffmpeg.pl" />
+                                <copy todir="${installdir}/bmp" >
+                                     <fileset dir="${basedir}/bmp" includes="*.gif" />
+                                </copy>
+                </target>
+</project>
+
