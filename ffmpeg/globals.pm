@@ -75,7 +75,7 @@ sub SetUpGlobals {
 	$spinThreads->g_grid(-column => 6, -row => 2, -sticky => "w");
 	
 	$flagTrace = 0;	
-	$cbTrace = $frame->new_ttk__checkbutton(-text => "Trace Outout", -variable => \$flagTrace, -command => \&ClickTrace);
+	$cbTrace = $frame->new_ttk__checkbutton(-text => "Trace Output", -variable => \$flagTrace, -command => \&ClickTrace);
 	$cbTrace->g_grid(-column => 7, -columnspan => 2, -row => 2, -padx => 5, -sticky => "w");
 	
 	$frame;
